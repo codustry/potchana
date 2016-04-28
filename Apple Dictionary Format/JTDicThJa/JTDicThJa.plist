@@ -5,25 +5,22 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleIdentifier</key>
-	<string>JTDicThJa</string>
+	<string>com.codustry.dictionary.ThaiJapanese</string>
 	<key>CFBundleDisplayName</key>
-	<string>JTDic (Th-Ja)</string>
+	<string>Thai - Japanese Dictionary</string>
 	<key>CFBundleName</key>
-	<string>JTDicThJa</string>
+	<string>Thai - Japanese</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>DCSDictionaryCopyright</key>
-	<string>.</string>
+	<string>JTDict by Paitoon Sae-Tang | Thai - Japanese&lt;br&gt;Developed 2016 by Codustry Laboratory</string>
 	<key>DCSDictionaryManufacturerName</key>
-	<string>(c) V-I-C, 2010-2013.</string>
+	<string>Codustry Laboratory</string>
 	<key>DCSDictionaryXSL</key>
 	<string></string>
 	<key>DCSDictionaryDefaultPrefs</key>
-	<dict>
-		
-	</dict>
+	<dict/>
 	<key>DCSDictionaryPrefsHTML</key>
 	<string></string>
-	
 </dict>
 </plist>
