@@ -2,12 +2,23 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>DCSDictionaryPrimaryLanguage</key>
+	<string>th</string>
+	<key>DCSDictionaryLanguages</key>
+	<array>
+		<dict>
+			<key>DCSDictionaryIndexLanguage</key>
+			<string>th</string>
+			<key>DCSDictionaryDescriptionLanguage</key>
+			<string>th</string>
+		</dict>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.codustry.dictionary.MySample</string>
+	<string>com.codustry.dictionary.th.SEASite</string>
 	<key>CFBundleName</key>
-	<string>MyDictionary</string>
+	<string>SEASite</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>DCSDictionaryCopyright</key>
@@ -15,21 +26,12 @@
 	<key>DCSDictionaryManufacturerName</key>
 	<string>Codustry</string>
 	<key>DCSDictionaryFrontMatterReferenceID</key>
-	<string>front_back_matter</string>
+	<string>dictionary</string>
 	<key>DCSDictionaryPrefsHTML</key>
-	<string>MyDictionary_prefs.html</string>
+	<string></string>
 	<key>DCSDictionaryXSL</key>
-	<string>MyDictionary.xsl</string>
+	<string></string>
 	<key>DCSDictionaryDefaultPrefs</key>
-	<dict>
-		<key>pronunciation</key>
-		<string>0</string>
-		<key>display-column</key>
-		<string>1</string>
-		<key>display-picture</key>
-		<string>1</string>
-		<key>version</key>
-		<string>1</string>
-	</dict>
+	<dict/>
 </dict>
 </plist>

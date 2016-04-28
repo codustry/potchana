@@ -11,7 +11,7 @@
 DICT_NAME		=	"SEASiteThEn"
 DICT_SRC_PATH		=	"SEASiteThEn.xml"
 CSS_PATH		=	"SEASiteThEn.css"
-PLIST_PATH		=	"SEASiteThEn.plist"
+PLIST_PATH		=	"MyInfo.plist"
 
 DICT_BUILD_OPTS		=
 # Suppress adding supplementary key.
@@ -22,7 +22,7 @@ DICT_BUILD_OPTS		=
 # The DICT_BUILD_TOOL_DIR value is used also in "build_dict.sh" script.
 # You need to set it when you invoke the script directly.
 
-DICT_BUILD_TOOL_DIR	=	"/Developer/Extras/Dictionary Development Kit"
+DICT_BUILD_TOOL_DIR	=	"/Users/charles/Developer/Extras/Dictionary Development Kit"
 DICT_BUILD_TOOL_BIN	=	"$(DICT_BUILD_TOOL_DIR)/bin"
 
 ###########################
