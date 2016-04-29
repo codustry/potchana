@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleIdentifier</key>
+	<string>English_Thai_Dictionary_of_Che</string>
+	<key>CFBundleDisplayName</key>
+	<string>English - Thai, Dictionary of CherngX</string>
+	<key>CFBundleName</key>
+	<string>English_Thai_Dictionary_of_Che</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>DCSDictionaryCopyright</key>
+	<string>.</string>
+	<key>DCSDictionaryManufacturerName</key>
+	<string>Pairit Nittayanuparp.</string>
+	<key>DCSDictionaryXSL</key>
+	<string></string>
+	<key>DCSDictionaryDefaultPrefs</key>
+	<dict>
+		
+	</dict>
+	<key>DCSDictionaryPrefsHTML</key>
+	<string></string>
+	
+</dict>
+</plist>
