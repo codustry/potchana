@@ -5,25 +5,22 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleIdentifier</key>
-	<string>Thai___English_Quick_Reference</string>
+	<string>com.codustry.dictionary.ThaiEnglishQuickReference</string>
 	<key>CFBundleDisplayName</key>
-	<string>Thai - English Quick Reference</string>
+	<string>Thai-English Quick Reference</string>
 	<key>CFBundleName</key>
-	<string>Thai___English_Quick_Reference</string>
+	<string>Thai-English QR</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>DCSDictionaryCopyright</key>
-	<string>.</string>
+	<string>Quick Reference | Thai-English&lt;br&gt;Developed 2016 by Codustry Laboratory</string>
 	<key>DCSDictionaryManufacturerName</key>
-	<string>(+_+).</string>
+	<string>Codustry Laboratory</string>
 	<key>DCSDictionaryXSL</key>
 	<string></string>
 	<key>DCSDictionaryDefaultPrefs</key>
-	<dict>
-		
-	</dict>
+	<dict/>
 	<key>DCSDictionaryPrefsHTML</key>
 	<string></string>
-	
 </dict>
 </plist>

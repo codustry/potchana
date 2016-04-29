@@ -5,25 +5,22 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleIdentifier</key>
-	<string>English_Thai_Dictionary_of_Che</string>
+	<string>com.codustry.dictionary.EnglishThaiCherngX</string>
 	<key>CFBundleDisplayName</key>
-	<string>English - Thai, Dictionary of CherngX</string>
+	<string>English-Thai Dictionary</string>
 	<key>CFBundleName</key>
-	<string>English_Thai_Dictionary_of_Che</string>
+	<string>English-Thai</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>DCSDictionaryCopyright</key>
-	<string>.</string>
+	<string>CherngX by Pairit Nittayanuparp | English - Thai&lt;br&gt;Developed 2016 by Codustry Laboratory</string>
 	<key>DCSDictionaryManufacturerName</key>
-	<string>Pairit Nittayanuparp.</string>
+	<string>Codustry Laboratory</string>
 	<key>DCSDictionaryXSL</key>
 	<string></string>
 	<key>DCSDictionaryDefaultPrefs</key>
-	<dict>
-		
-	</dict>
+	<dict/>
 	<key>DCSDictionaryPrefsHTML</key>
 	<string></string>
-	
 </dict>
 </plist>
