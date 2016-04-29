@@ -5,25 +5,22 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleIdentifier</key>
-	<string>KDTThKo</string>
+	<string>com.codustry.dictionary.EnglishThai</string>
 	<key>CFBundleDisplayName</key>
-	<string>KDT (Th-Ko)</string>
+	<string>English-Thai Dictionary</string>
 	<key>CFBundleName</key>
-	<string>KDTThKo</string>
+	<string>English-Thai</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>DCSDictionaryCopyright</key>
-	<string>.</string>
+	<string>Lexitron Dictionary | English-Thai&lt;br&gt;Developed 2016 by Codustry Laboratory</string>
 	<key>DCSDictionaryManufacturerName</key>
-	<string>(c) V-I-C, 2010-2012.</string>
+	<string>Codustry Laboratory</string>
 	<key>DCSDictionaryXSL</key>
 	<string></string>
 	<key>DCSDictionaryDefaultPrefs</key>
-	<dict>
-		
-	</dict>
+	<dict/>
 	<key>DCSDictionaryPrefsHTML</key>
 	<string></string>
-	
 </dict>
 </plist>

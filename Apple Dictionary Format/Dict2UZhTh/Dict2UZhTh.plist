@@ -5,25 +5,22 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleIdentifier</key>
-	<string>LexitronThEn</string>
+	<string>com.codustry.dictionary.ChineseThai</string>
 	<key>CFBundleDisplayName</key>
-	<string>LEXiTRON (Th-En)</string>
+	<string>Chinese-Thai Dictionary</string>
 	<key>CFBundleName</key>
-	<string>LexitronThEn</string>
+	<string>Chinese-Thai</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>DCSDictionaryCopyright</key>
-	<string>.</string>
+	<string>DICT2U | Chinese-Thai&lt;br&gt;Developed 2016 by Codustry Laboratory</string>
 	<key>DCSDictionaryManufacturerName</key>
-	<string>(c) V-I-C, 2010-2012.</string>
+	<string>Codustry Laboratory</string>
 	<key>DCSDictionaryXSL</key>
 	<string></string>
 	<key>DCSDictionaryDefaultPrefs</key>
-	<dict>
-		
-	</dict>
+	<dict/>
 	<key>DCSDictionaryPrefsHTML</key>
 	<string></string>
-	
 </dict>
 </plist>

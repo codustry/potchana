@@ -5,25 +5,22 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleIdentifier</key>
-	<string>Dict2UThZh</string>
+	<string>com.codustry.dictionary.ThaiEnglish</string>
 	<key>CFBundleDisplayName</key>
-	<string>Dict2U (Th-Zh)</string>
+	<string>Thai-English Dictionary</string>
 	<key>CFBundleName</key>
-	<string>Dict2UThZh</string>
+	<string>Thai-English</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>DCSDictionaryCopyright</key>
-	<string>.</string>
+	<string>Lexitron Dictionary | Thai-English&lt;br&gt;Developed 2016 by Codustry Laboratory</string>
 	<key>DCSDictionaryManufacturerName</key>
-	<string>(c) V-I-C, 2010-2012.</string>
+	<string>Codustry Laboratory</string>
 	<key>DCSDictionaryXSL</key>
 	<string></string>
 	<key>DCSDictionaryDefaultPrefs</key>
-	<dict>
-		
-	</dict>
+	<dict/>
 	<key>DCSDictionaryPrefsHTML</key>
 	<string></string>
-	
 </dict>
 </plist>

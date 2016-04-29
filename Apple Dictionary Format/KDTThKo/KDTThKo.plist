@@ -5,25 +5,22 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleIdentifier</key>
-	<string>RoyalInstituteThTh</string>
+	<string>com.codustry.dictionary.ThaiKorean</string>
 	<key>CFBundleDisplayName</key>
-	<string>Royal Institut Dictionary (Th-Th)</string>
+	<string>Thai-Korean Dictionary</string>
 	<key>CFBundleName</key>
-	<string>RoyalInstituteThTh</string>
+	<string>Thai-Korean</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>DCSDictionaryCopyright</key>
-	<string>.</string>
+	<string>Korean Dictionary | Thai-Korean&lt;br&gt;Developed 2016 by Codustry Laboratory</string>
 	<key>DCSDictionaryManufacturerName</key>
-	<string>(c) V-I-C, 2010-2012.</string>
+	<string>Codustry Laboratory</string>
 	<key>DCSDictionaryXSL</key>
 	<string></string>
 	<key>DCSDictionaryDefaultPrefs</key>
-	<dict>
-		
-	</dict>
+	<dict/>
 	<key>DCSDictionaryPrefsHTML</key>
 	<string></string>
-	
 </dict>
 </plist>
