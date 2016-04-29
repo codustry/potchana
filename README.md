@@ -1,2 +1,2 @@
-# Dictionary
-A simple free OS X dictionary plug-in for Macintosh.
+# Potchana
+An open source Thai-based dictionary plug-in for Mac.
