@@ -5,25 +5,22 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleIdentifier</key>
-	<string>ThaiRussian</string>
+	<string>com.codustry.dictionary.ThaiRussian</string>
 	<key>CFBundleDisplayName</key>
-	<string>Thai Russian v. 0.9 (Th-Ru)</string>
+	<string>Thai-Russian Dictionary</string>
 	<key>CFBundleName</key>
-	<string>ThaiRussian</string>
+	<string>Thai-Russian</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>DCSDictionaryCopyright</key>
-	<string>.</string>
+	<string>Словарь | Thai-Russian &lt;br&gt;Developed 2016 by Codustry Laboratory</string>
 	<key>DCSDictionaryManufacturerName</key>
-	<string>(c) V-I-C, 2010-2013.</string>
+	<string>Codustry Laboratory</string>
 	<key>DCSDictionaryXSL</key>
 	<string></string>
 	<key>DCSDictionaryDefaultPrefs</key>
-	<dict>
-		
-	</dict>
+	<dict/>
 	<key>DCSDictionaryPrefsHTML</key>
 	<string></string>
-	
 </dict>
 </plist>
