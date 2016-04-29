@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleIdentifier</key>
+	<string>Japanese_Thai_Dictionary_JTDIC</string>
+	<key>CFBundleDisplayName</key>
+	<string>Japanese Thai Dictionary (JTDIC)</string>
+	<key>CFBundleName</key>
+	<string>Japanese_Thai_Dictionary_JTDIC</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>DCSDictionaryCopyright</key>
+	<string>
+Copyright (c) 2004 - 2007 JTDIC.COM. All rights reserved..</string>
+	<key>DCSDictionaryManufacturerName</key>
+	<string>Paitoon Sae-Tang.</string>
+	<key>DCSDictionaryXSL</key>
+	<string></string>
+	<key>DCSDictionaryDefaultPrefs</key>
+	<dict>
+		
+	</dict>
+	<key>DCSDictionaryPrefsHTML</key>
+	<string></string>
+	
+</dict>
+</plist>

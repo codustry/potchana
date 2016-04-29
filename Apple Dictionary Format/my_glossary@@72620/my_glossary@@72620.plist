@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleIdentifier</key>
+	<string>my_glossary@@72620</string>
+	<key>CFBundleDisplayName</key>
+	<string>TaiDic</string>
+	<key>CFBundleName</key>
+	<string>my_glossary@@72620</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>DCSDictionaryCopyright</key>
+	<string>Created by Sai Zom Tai
+www.taidic.com.</string>
+	<key>DCSDictionaryManufacturerName</key>
+	<string>Sai Zom Tai.</string>
+	<key>DCSDictionaryXSL</key>
+	<string></string>
+	<key>DCSDictionaryDefaultPrefs</key>
+	<dict>
+		
+	</dict>
+	<key>DCSDictionaryPrefsHTML</key>
+	<string></string>
+	
+</dict>
+</plist>
