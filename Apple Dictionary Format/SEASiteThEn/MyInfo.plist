@@ -2,36 +2,25 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>DCSDictionaryPrimaryLanguage</key>
-	<string>th</string>
-	<key>DCSDictionaryLanguages</key>
-	<array>
-		<dict>
-			<key>DCSDictionaryIndexLanguage</key>
-			<string>th</string>
-			<key>DCSDictionaryDescriptionLanguage</key>
-			<string>th</string>
-		</dict>
-	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.codustry.dictionary.th.SEASite</string>
+	<string>com.codustry.dictionary.ThaiEnglishSEASite</string>
+	<key>CFBundleDisplayName</key>
+	<string>Thai-English Dictionary</string>
 	<key>CFBundleName</key>
-	<string>SEASite</string>
+	<string>Thai-English</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>DCSDictionaryCopyright</key>
-	<string>Copyright © 2016 Codustry Laboratory</string>
+	<string>SEA Site | Thai-English&lt;br&gt;Developed 2016 by Codustry Laboratory</string>
 	<key>DCSDictionaryManufacturerName</key>
-	<string>Codustry</string>
-	<key>DCSDictionaryFrontMatterReferenceID</key>
-	<string>dictionary</string>
-	<key>DCSDictionaryPrefsHTML</key>
-	<string></string>
+	<string>Codustry Laboratory</string>
 	<key>DCSDictionaryXSL</key>
 	<string></string>
 	<key>DCSDictionaryDefaultPrefs</key>
 	<dict/>
+	<key>DCSDictionaryPrefsHTML</key>
+	<string></string>
 </dict>
 </plist>
