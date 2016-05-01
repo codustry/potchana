@@ -2992,7 +2992,7 @@
 				<key>CONCLUSION_ACTION</key>
 				<integer>0</integer>
 				<key>IDENTIFIER</key>
-				<string>com.mygreatcompany.pkg.RoyalTh</string>
+				<string>com.codustry.pkg.ThaiThai</string>
 				<key>NAME</key>
 				<string>ThaiThai</string>
 				<key>OVERWRITE_PERMISSIONS</key>
@@ -3596,7 +3596,7 @@
 				<key>CONCLUSION_ACTION</key>
 				<integer>0</integer>
 				<key>IDENTIFIER</key>
-				<string>com.mygreatcompany.pkg.untitled-package</string>
+				<string>com.codustry.pkg.EnglishThai</string>
 				<key>LOCATION</key>
 				<integer>0</integer>
 				<key>NAME</key>
@@ -9127,7 +9127,7 @@
 				<key>CONCLUSION_ACTION</key>
 				<integer>0</integer>
 				<key>IDENTIFIER</key>
-				<string>com.mygreatcompany.pkg.untitled-package-1</string>
+				<string>com.codustry.pkg.ThaiEnglish</string>
 				<key>LOCATION</key>
 				<integer>0</integer>
 				<key>NAME</key>
@@ -9762,7 +9762,7 @@
 				<key>CONCLUSION_ACTION</key>
 				<integer>0</integer>
 				<key>IDENTIFIER</key>
-				<string>com.mygreatcompany.pkg.untitled-package-2</string>
+				<string>com.codustry.pkg.GermanThai</string>
 				<key>LOCATION</key>
 				<integer>0</integer>
 				<key>NAME</key>
@@ -10397,7 +10397,7 @@
 				<key>CONCLUSION_ACTION</key>
 				<integer>0</integer>
 				<key>IDENTIFIER</key>
-				<string>com.mygreatcompany.pkg.untitled-package-3</string>
+				<string>com.codustry.pkg.JapaneseThai</string>
 				<key>LOCATION</key>
 				<integer>0</integer>
 				<key>NAME</key>
@@ -11000,7 +11000,7 @@
 				<key>CONCLUSION_ACTION</key>
 				<integer>0</integer>
 				<key>IDENTIFIER</key>
-				<string>com.mygreatcompany.pkg.untitled-package-4</string>
+				<string>com.codustry.pkg.ThaiChinese</string>
 				<key>LOCATION</key>
 				<integer>0</integer>
 				<key>NAME</key>
@@ -11603,7 +11603,7 @@
 				<key>CONCLUSION_ACTION</key>
 				<integer>0</integer>
 				<key>IDENTIFIER</key>
-				<string>com.mygreatcompany.pkg.untitled-package-5</string>
+				<string>com.codustry.pkg.ThaiKorean</string>
 				<key>LOCATION</key>
 				<integer>0</integer>
 				<key>NAME</key>
@@ -12238,7 +12238,7 @@
 				<key>CONCLUSION_ACTION</key>
 				<integer>0</integer>
 				<key>IDENTIFIER</key>
-				<string>com.mygreatcompany.pkg.untitled-package-1-1</string>
+				<string>com.codustry.pkg.ThaiJapanese</string>
 				<key>LOCATION</key>
 				<integer>0</integer>
 				<key>NAME</key>
@@ -15945,7 +15945,7 @@
 				<key>CONCLUSION_ACTION</key>
 				<integer>0</integer>
 				<key>IDENTIFIER</key>
-				<string>com.mygreatcompany.pkg.untitled-package-2-1</string>
+				<string>com.codustry.pkg.ThaiRussian</string>
 				<key>LOCATION</key>
 				<integer>0</integer>
 				<key>NAME</key>
@@ -16548,7 +16548,7 @@
 				<key>CONCLUSION_ACTION</key>
 				<integer>0</integer>
 				<key>IDENTIFIER</key>
-				<string>com.mygreatcompany.pkg.untitled-package-3-1</string>
+				<string>com.codustry.pkg.ThaiFrench</string>
 				<key>LOCATION</key>
 				<integer>0</integer>
 				<key>NAME</key>
