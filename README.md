@@ -9,5 +9,7 @@ The problem that make us want to do Thai-based dictionary for Mac is because man
 
 ##Developers
 Thunpisit Amnuaikiatloet - [thunpisit.am@codustry.com](thunpisit.am@codustry.com)
+
 Nutchanon Ninyawee - [nutchanon.ni@codustry.com](nutchanon.ni@codustry.com)
+
 Kompipat Kanpisan - [kompipat.ka@codustry.com](kompipat.ka@codustry.com)
