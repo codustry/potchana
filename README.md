@@ -11,6 +11,22 @@ The problem that make us want to do Thai-based dictionary for Mac is because man
 - https://sites.google.com/site/thaidictproject/
 - http://www.babylon-software.com/free-dictionaries/ 
 
+##License
+**Codustry Laboratory** is not the owner of the dictionary database. 
+We are only converter and distributer of the dictionary. We do not own any dictionary licenses. 
+
+We’re using dictionary database from these developers
+-	https://sites.google.com/site/thaidictproject/
+-	http://www.babylon-software.com/free-dictionaries/ 
+
+We’re using dictionary converter from this developer
+-	https://github.com/ilius/pyglossary
+
+We’re using installer tools from this developer
+- http://s.sudre.free.fr/Packaging.html
+
+Anymore questions regarding to license please contact us!
+
 ##Developers
 - Thunpisit Amnuaikiatloet - [thunpisit.am@codustry.com](thunpisit.am@codustry.com)
 - Nutchanon Ninyawee - [nutchanon.ni@codustry.com](nutchanon.ni@codustry.com)
