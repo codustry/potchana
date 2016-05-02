@@ -7,11 +7,7 @@ The name “Potchana” comes from a full name **“Potchananukrom (พจนา
 
 The problem that make us want to do Thai-based dictionary for Mac is because many of us are users of StarDict in Linux and they have great dictionaries but in Mac there is none who can get these language on Mac. The only dictionary that works but not as good as it should be is developed by NECTEC called “Lexitron” which provides Thai-English & English-Thai dictionaries.
 
-##Dictionary Database
-- https://sites.google.com/site/thaidictproject/
-- http://www.babylon-software.com/free-dictionaries/ 
-
-##License
+##License & Credits
 **Codustry Laboratory** is not the owner of the dictionary database. 
 We are only converter and distributer of the dictionary. We do not own any dictionary licenses. 
 
@@ -25,7 +21,7 @@ We’re using dictionary converter from this developer
 We’re using installer tools from this developer
 - http://s.sudre.free.fr/Packaging.html
 
-Anymore questions regarding to license please contact us!
+Anymore questions regarding to license please contact us at [support@codustry.com](support@codustry.com)
 
 ##Developers
 - Thunpisit Amnuaikiatloet - [thunpisit.am@codustry.com](thunpisit.am@codustry.com)
