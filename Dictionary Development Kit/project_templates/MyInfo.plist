@@ -5,15 +5,15 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.codustry.dictionary.MySample</string>
+	<string>com.apple.dictionary.MySample</string>
 	<key>CFBundleName</key>
 	<string>MyDictionary</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>DCSDictionaryCopyright</key>
-	<string>Copyright © 2016 Codustry Laboratory</string>
+	<string>Copyright © 2007 Apple Inc.</string>
 	<key>DCSDictionaryManufacturerName</key>
-	<string>Codustry</string>
+	<string>Apple Inc.</string>
 	<key>DCSDictionaryFrontMatterReferenceID</key>
 	<string>front_back_matter</string>
 	<key>DCSDictionaryPrefsHTML</key>

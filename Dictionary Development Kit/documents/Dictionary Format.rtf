@@ -1,17 +1,17 @@
-{\rtf1\ansi\ansicpg932\cocoartf949\cocoasubrtf430
+{\rtf1\ansi\ansicpg1252\cocoartf1159
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset128 HiraKakuProN-W3;\f2\fnil\fcharset0 Baskerville;
 \f3\froman\fcharset0 Times-Roman;\f4\fnil\fcharset0 Baskerville-SemiBold;\f5\fnil\fcharset0 LucidaGrande;
 }
 {\colortbl;\red255\green255\blue255;\red255\green0\blue0;\red0\green0\blue236;\red202\green230\blue230;
 \red0\green10\blue241;}
-{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid0\'02\'05.;}{\levelnumbers\'01;}}{\listname ;}\listid1}}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
 {\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
 \paperw11900\paperh16840\margl1440\margr1440\vieww14860\viewh18700\viewkind0
 \deftab720
-\pard\pardeftab720\ql\qnatural
+\pard\pardeftab720
 
 \f0\fs24 \cf0 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \fs36 \cf0 Dictionary Source Schema for Dictionary Services XML
 \fs24 \
@@ -22,9 +22,9 @@
 \fs24 \
 \
 This document explains an XML schema that enables developing dictionaries / references that are compatible with Dictionary.app and other Dictionary Services. The schema defines the source code format for the dictionary. The dictionary source needs to be validated to make sure it is in the correct format. It is then processed by the Dictionary Build tool together with css and other auxiliary files, and packaged into a dictionary bundle. The dictionary bundle can be installed into one of the Library/Dictionaries folders to make it accessible from Dictionary.app.\
-\pard\pardeftab720\ql\qnatural
+\pard\pardeftab720
 \cf0 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 \cf0 The format is defined using selected XHTML modules and markup that are specific to the Dictionary Services.  The Dictionary Services specific markup are used to define the dictionary entry structure such as index.  It also defines a few elements and attributes that provides necessary feature or semantics to the contents (such as an attribute for parental-control).  The contents are expressed using XHTML modules.  The developers can use CSS to control the appearance.  But, the CSS usage should be minimized.  Dictionary.app and Dictionary Panel control the style using their own style definitions to fit the contents to the each display.  (e.g. Specifying font or specifying absolute font size are not recommended.)\
 \
 \
@@ -88,7 +88,7 @@ http://www.w3.org/TR/xhtml-modularization/dtd_module_defs.html#a_dtd_module_defs
 \
 Markups that are specific to Dictionary Service XML are described below. It uses pseudo DTD for better readability. The default namespace is used to refer XHML, and namespace prefix "d" is used for markup that are specific to Dictionary Services.\
 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \fs30 \cf0 [3-1] dic.content
 \fs24 \
@@ -125,14 +125,14 @@ A dictionary.  Root element of a dictionary containing one or more entries.\
 \fs28 (2) entry
 \fs24 \
 \
-\pard\pardeftab720\ql\qnatural
+\pard\pardeftab720
 \cf0 <!ELEMENT d:entry ( d:index*, %dic.content;) >\
 <!ATTLIST d:entry\
 	id			ID		#REQUIRED\
 	d:title			NMTOKEN	#REQUIRED\
 	d:parental-control	( 1 )		#IMPLIED\
 >\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 \cf0 \
 An entry.  It contains one or more index and a body part, and constructs the logical structure of the entry.\
 \
@@ -146,7 +146,7 @@ Attribute:\
   When parental control function is active, the entry that have this attribute can't be searched.  It doesn't appear on search result headword list.\cf2 \
 \cf0 \
 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \fs30 \cf0 [3-3] Index
 \fs24 \
@@ -156,7 +156,7 @@ Attribute:\
 \fs24 \
 \
 <!ELEMENT d:index EMPTY >\
-\pard\pardeftab720\ql\qnatural
+\pard\pardeftab720
 \cf0 <!ATTLIST	d:index\
 	d:value	NMTOKEN	#REQUIRED\
 	d:title		NMTOKEN	#IMPLIED\
@@ -165,7 +165,7 @@ Attribute:\
 	d:anchor	NMTOKEN	#IMPLIED\
 	d:yomi	NMTOKEN	#IMPLIED\
 >\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 \cf0 \
 Index information.  This information is extracted from entry and used to build the index.  The index element should appear prior to other elements in the entry.  \
 \
@@ -181,7 +181,7 @@ Attribute:\
 - d:anchor\
   Used to highlight a specific part in an entry.  For example, it is used to highlight an idiomatic phrase explanation in an entry for a word. (cf. "[4-5] Phrase Search --- Highlight a Specific Part in an Entry")\
 - d:yomi\
-  Used only in making Japanese dictionaries.  (cf. "[5-3] Maikng Japanese Dictionary")\
+  Used only in making Japanese dictionaries.  (cf. "[5-3] Making Japanese Dictionary")\
 \
 e.g.\
 ----\
@@ -194,7 +194,7 @@ e.g.\
 \
 If the entry for "make" contains these <d:index> definitions, the entry can be searched not only by "make" but also by "makes" or "made".  On the search result list, title value texts like "made" are displayed.  \
 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \fs28 \cf0 (2) Search Key Text Normalization
 \fs24 \
@@ -329,13 +329,13 @@ Dictionary bundle ID can be omitted in both forms.  In that case, Dictionary Ser
   x-dictionary:r:reference_id\
 \
 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \fs34 \cf0 [4] Examples
 \fs24 \
 \
 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \fs30 \cf0 [4-1] Simple Example
 \fs24 \
@@ -383,10 +383,10 @@ Below is a simple example of a dictionary that contains an entry.\
 \
 When the XML of this example is shown with Dictionary.app, it becomes like the following.\
 ----------------------------------------------------\
-\pard\pardeftab720\ql\qnatural
+\pard\pardeftab720
 
 \f2\fs48 \cf0 make\
-\pard\pardeftab720\ql\qnatural
+\pard\pardeftab720
 
 \fs32 \cf0 | m
 \f3 \uc0\u257 
@@ -398,22 +398,22 @@ When the XML of this example is shown with Dictionary.app, it becomes like the f
 \i The news made me happy
 \i0 .\
 PHRASES\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\ql\qnatural
+\pard\tx220\tx720\pardeftab720\li720\fi-720
 
 \f3\b \cf0 make it
 \b0  : succeed in something; survive.
 \f2 \
-\pard\pardeftab720\ql\qnatural
+\pard\pardeftab720
 
 \f4\b \cf3 \ul \ulc3 make up one's mind
 \f0\b0\fs24 \cf0 \ulnone \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 \cf0 ----------------------------------------------------\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \f5 \cf0 \
 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \f0\fs30 \cf0 [4-2] How Parental-control Works
 \fs24 \
@@ -421,7 +421,7 @@ PHRASES\
 When parental control function is active, the elements that have the value "1" for 'd:parental-control' are not shown.\
 The PHRASES block is not shown for this example.\
 ----------------------------------------------------\
-\pard\pardeftab720\ql\qnatural
+\pard\pardeftab720
 
 \f2\fs48 \cf0 make\
 
@@ -435,17 +435,17 @@ The PHRASES block is not shown for this example.\
 \i The news made me happy
 \i0 .
 \fs48 \
-\pard\pardeftab720\ql\qnatural
+\pard\pardeftab720
 
 \f0\fs24 \cf0 ----------------------------------------------------
 \f5 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 \cf0 Note that the 
 \f0 <d:index d:value="make it" d:title="make it" d:parental-control="1" ... /> tag contains d:parental-control attribute.  It is to remove the title from the search result list.  Please keep consistency between hidden content part and hidden index title.
 \f5 \
 \
 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \f0\fs30 \cf0 [4-3] How Priority Works
 \fs24 \
@@ -453,7 +453,7 @@ The PHRASES block is not shown for this example.\
 Dictionary Panel hides the elements that have "2" or greater value for 'd:priority' attribute.\
 The example and phrases are not shown for this example. \
 ----------------------------------------------------\
-\pard\pardeftab720\ql\qnatural
+\pard\pardeftab720
 
 \f2\fs32 \cf0 | m
 \f3 \uc0\u257 
@@ -463,18 +463,17 @@ The example and phrases are not shown for this example. \
 \f0\fs24 \
 ----------------------------------------------------
 \f5 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \f0 \cf0 The headword is also hidden.  This example illustrates the usage for Dictionary Panel.  Since the Dictionary Panel highlights the text under mouse cursor, and it looks like the headword, the headword in dictionary contents is hidden.
 \f5 \
 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
 
-\f0 \cf0 Dictionary Panel doesn't find the <d:index> that have d:priority="2".  With the <d:index d:value="making" d:priority="2"/>, the Dictionary Panel doesn't find the "making".
+\f0 Dictionary Panel doesn't find the <d:index> that have d:priority="2".  With the <d:index d:value="making" d:priority="2"/>, the Dictionary Panel doesn't find the "making".
 \f5 \
 \
 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \f0\fs30 \cf0 [4-4] Reference Link in Dictionary
 \fs24 \
@@ -485,21 +484,21 @@ An electronic dictionary often contains static hypertext links in it.  The next 
 		...\
 		<h4><a href="x-dictionary:r:make_up_ones_mind"><b>make up one's mind</b></a></h4>\
 ----\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \f5 \cf0 This part is rendered on Dictionary.app as below.\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \f0 \cf0 ----------------------------------------------------
 \f5 \
-\pard\pardeftab720\ql\qnatural
+\pard\pardeftab720
 
 \f2\fs32 \cf0 PHRASES\
-\pard\pardeftab720\ql\qnatural
+\pard\pardeftab720
 
 \f4\b \cf3 \ul make up one's mind
 \f0\b0\fs24 \cf0 \ulnone \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 \cf0 ----------------------------------------------------
 \f5 \
 
@@ -518,7 +517,7 @@ An electronic dictionary often contains static hypertext links in it.  The next 
 Please refer "[3-6] dictionary: URI Scheme" for other variations.\
 \
 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \fs30 \cf0 [4-5] Phrase Search --- Highlight a Specific Part in an Entry
 \fs24 \
@@ -537,42 +536,42 @@ When user searches "make it" on Dictionary.app and selects the entry, Dictionary
 		<div id="make_it"><b>make it</b> : succeed in something; survive.</div>\
 ----\
 \
-\pard\pardeftab720\sa60\ql\qnatural
+\pard\pardeftab720\sa60
 \cf0 The display will become as follows.\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 \cf0 ----------------------------------------------------\
-\pard\pardeftab720\sa80\ql\qnatural
+\pard\pardeftab720\sa80
 
 \f2\fs48 \cf0 make\
-\pard\pardeftab720\ql\qnatural
+\pard\pardeftab720
 
 \f3\fs32 \cf0 | m\uc0\u257 k |\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\ql\qnatural
+\pard\tx220\tx720\pardeftab720\li720\fi-720
 \ls1\ilvl0\cf0 {\listtext	1.	}Form by putting parts together or combining substances; construct; create; produce : 
 \i Mother made her a beautiful dress
 \i0  .\
 {\listtext	2.	}Cause to be or become : 
 \i The news made me happy
 \i0  .\
-\pard\pardeftab720\sa60\ql\qnatural
+\pard\pardeftab720\sa60
 
 \f2 \cf0 PHRASES\
-\pard\pardeftab720\ql\qnatural
+\pard\pardeftab720
 
 \f3\b \cf0 \cb4 make it
 \b0  : succeed in something; survive.\
-\pard\pardeftab720\sa60\ql\qnatural
+\pard\pardeftab720\sa60
 {\field{\*\fldinst{HYPERLINK "x-dictionary:r:make_up_ones_mind"}}{\fldrslt 
 \f4\b \cf5 \cb1 make up one's mind}}
 \f4\b \cf5 \cb1 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \f0\b0\fs24 \cf0 ----------------------------------------------------\
 \
 In case you use an id for this purpose like this example, make sure that the id is unique in the dictionary.  It is to avoid an id conflict when multiple entries of the dictionary are shown in a view.\
 \
 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \fs30 \cf0 [4-6] Very Simple Example
 \fs24 \
@@ -607,13 +606,13 @@ Such data can be converted as next.\
 ----\
 \
 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \fs34 \cf0 [5] Advanced Topics
 \fs24 \
 \
 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \fs30 \cf0 [5-1] Front/Back Matter
 \fs24 \
@@ -622,7 +621,7 @@ Front/Back Matter can be added to a dictionary by the following steps.\
 \
 If you don't add Front/Back Matter to the dictionary the entry for the purpose nor DCSDictionaryFrontMatterReferenceID definition in the Info.plist are not necessary.\
 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \fs28 \cf0 (1) Prepare an entry for Front/Back Matter
 \fs24 \
@@ -644,7 +643,7 @@ The entry id ("front_back_matter" in this example) is used to find the entry.\
 \
 
 \fs28 (2) Add keys to the dictionary Info.plist\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \fs24 \cf0 \
 To indicate that the dictionary has Front/Back matter entry, add the next key/value pair to the dictionary Info.plist.\
@@ -660,16 +659,16 @@ To see the page on Dictionary.app, open "Go" menu, choose "Front/Back Matter" me
 In this example the front/back matter entry doesn't have <d:index> in it.  The page cannot be found from key text searching.  It can be reached only by reference jump using the entry id.  The entry can have <d:index>, of course.\
 \
 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \fs30 \cf0 [5-2] Dictionary-specific Preference
 \fs24 \
 \
-A dictionary can have its own preference.  For example, New Oxford American Dictionary (NOAD) in Leopard has the preference to choose preferred pronunciation representation.  i.e. The user can choose one phonetic notation from U.S. English (Diacritical), U.S. English (IPA), and British English (IPA).  The example in this section also contains check boxes.  We use two check boxes to to turn on or off of displaying columns and pictures in the contens.  This section illustrates how the preferences are working.  (Note that the phonetic notation preference processing in this example is a simplified one than NOAD.)\
+A dictionary can have its own preference.  For example, New Oxford American Dictionary (NOAD) in Leopard has the preference to choose preferred pronunciation representation.  i.e. The user can choose one phonetic notation from U.S. English (Diacritical), U.S. English (IPA), and British English (IPA).  The example in this section also contains check boxes.  We use two check boxes to to turn on or off of displaying columns and pictures in the contents.  This section illustrates how the preferences are working.  (Note that the phonetic notation preference processing in this example is a simplified one than NOAD.)\
 \
 If you don't add preference to the dictionary, these XSLT, XHTML files nor definitions for the purpose in the Info.plist are not necessary.\
 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \fs28 \cf0 (1) Outline
 \fs24 \
@@ -779,7 +778,7 @@ Prepare an XSLT file to affect the contents.  In this example, it removes the un
 ----\
 Place the XSLT file in the "OtherResources" folder of the dictionary project.\
 The complete file of this example is available in the project_template at:\
-"/Developer/Extras/Dictionary Development Kit/project_templates/OtherResources/MyDictionary.xsl"\
+"/DevTools/Utilities/Dictionary Development Kit/project_templates/OtherResources/MyDictionary.xsl"\
 \
 
 \fs28 (4) XHTML File to Implement the Preference UI
@@ -813,7 +812,7 @@ As for the check boxes, the variable names passed to the XSLT are the ones that 
 ----\
 Place the XHTML file in the "OtherResources" folder of the dictionary project.\
 The complete file of this example is available in the project_template at:\
-"/Developer/Extras/Dictionary Development Kit/project_templates/OtherResources/MyDictionary_prefs.html".\
+"/DevTools/Utilities/Dictionary Development Kit/project_templates/OtherResources/MyDictionary_prefs.html".\
 \
 
 \fs28 (5) Add keys to the dictionary Info.plist
@@ -842,7 +841,7 @@ The 'DCSDictionaryPrefsHTML' value should be the XHTML file name.\
 The 'DCSDictionaryXSL'  value should be the XSLT file name.\
 \
 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \fs30 \cf0 [5-3] Making Japanese Dictionary
 \fs24 \
@@ -855,7 +854,7 @@ In Japanese dictionaries, it is very popular that search key text of an entry an
 \
 In this section, such background and issues are explained, and the usage of the d:yomi is illustrated.\
 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \fs28 \cf0 (1) Background and Issues
 \fs24 \
@@ -897,7 +896,7 @@ So, Japanese dictionaries have the search result list for "
 \f1 \'82\'a9\'82\'a2
 \f0 " as below.\
 ----------------------------------------------------\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \f1 \cf0 \'82\'a9\'82\'a2
 \f0  
@@ -989,7 +988,7 @@ The search results for "
 \
 Dictionary.app displays the d:title and d:yomi in the appropriate order in the search result list.  When user searched using Hiragana, Yomi comes first and Kanji is added.  When user searched using Kanji, Yomi is added.\
 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
 
 \fs28 \cf0 (2) yomi
 \fs24 \
@@ -1057,7 +1056,7 @@ With the d:yomi and the d:title, Dictionary.app can add the supplementary inform
 \
 cf. \
 An example of Japanese dictionary source is available in the sample folder.\
-- "/Developer/Extras/Dictionary Development Kit/samples/JapaneseDictionarySample.xml"\
+- "/DevTools/Utilities/Dictionary Development Kit/samples/JapaneseDictionarySample.xml"\
 It contains entries for various cases. e.g. Word that is written using multiple character classes mixed, foreign word that has both Katakana and Roman representation, etc.\
 \
 --------\
