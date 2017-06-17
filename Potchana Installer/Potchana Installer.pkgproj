@@ -473,7 +473,7 @@
 			<key>PACKAGE_FILES</key>
 			<dict>
 				<key>DEFAULT_INSTALL_LOCATION</key>
-				<string>/</string>
+				<string>/Library/Dictionaries</string>
 				<key>HIERARCHY</key>
 				<dict>
 					<key>CHILDREN</key>
@@ -4784,7 +4784,7 @@
 			<key>PACKAGE_FILES</key>
 			<dict>
 				<key>DEFAULT_INSTALL_LOCATION</key>
-				<string>/Library</string>
+				<string>/Library/Dictionaries</string>
 				<key>HIERARCHY</key>
 				<dict>
 					<key>CHILDREN</key>
@@ -7129,6 +7129,11 @@
 				<key>VERSION</key>
 				<integer>4</integer>
 			</dict>
+			<key>PACKAGE_SCRIPTS</key>
+			<dict>
+				<key>RESOURCES</key>
+				<array/>
+			</dict>
 			<key>PACKAGE_SETTINGS</key>
 			<dict>
 				<key>AUTHENTICATION</key>
@@ -7155,7 +7160,7 @@
 			<key>PACKAGE_FILES</key>
 			<dict>
 				<key>DEFAULT_INSTALL_LOCATION</key>
-				<string>/</string>
+				<string>/Library/Dictionaries</string>
 				<key>HIERARCHY</key>
 				<dict>
 					<key>CHILDREN</key>
@@ -8247,9 +8252,9 @@ This dictionary was created by TumCivil. For more informations please visits: ht
 						<key>VALUE</key>
 						<dict>
 							<key>PATH</key>
-							<string>/Users/iFluke/Documents/Github/potchana/Package &amp; Installer/Introduction.rtfd</string>
+							<string>Introduction.rtfd</string>
 							<key>PATH_TYPE</key>
-							<integer>0</integer>
+							<integer>1</integer>
 						</dict>
 					</dict>
 				</array>
@@ -8266,9 +8271,9 @@ This dictionary was created by TumCivil. For more informations please visits: ht
 						<key>VALUE</key>
 						<dict>
 							<key>PATH</key>
-							<string>/Users/iFluke/Documents/Github/potchana/Package &amp; Installer/License.rtf</string>
+							<string>License.rtf</string>
 							<key>PATH_TYPE</key>
-							<integer>0</integer>
+							<integer>1</integer>
 						</dict>
 					</dict>
 				</array>
@@ -8323,13 +8328,6 @@ This dictionary was created by TumCivil. For more informations please visits: ht
 				<string>.</string>
 				<key>PATH_TYPE</key>
 				<integer>1</integer>
-			</dict>
-			<key>CERTIFICATE</key>
-			<dict>
-				<key>NAME</key>
-				<string>Developer ID Installer: Thunpisit Amnuaikiatloet (7S69HUYJ5S)</string>
-				<key>PATH</key>
-				<string>/Users/iFluke/Library/Keychains/login.keychain</string>
 			</dict>
 			<key>EXCLUDED_FILES</key>
 			<array>
