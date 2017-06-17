@@ -17,13 +17,22 @@ The problem that make us want to do Thai-based dictionary for Mac is because man
 - Thai-Russian by ThaiDictProject. https://sites.google.com/site/thaidictproject/o-transkripcii
 - Thai-French Charles Degnau. http://www.francais-thai.com/
 
+## To build this yourself
+Look at the readme of pyglossary repo.(e.g. Format-specific Requirements)
+You may use `utils/*` to help and guide you.
+
+```
+pyglossary INPUT_FILE OUTPUT_FILE -v3
+mydic.ifo txt
+```
+
 ##License & Credits
-**Codustry Laboratory** is not the owner of the dictionary database. 
-We are only converter and distributer of the dictionary. We do not own any dictionary licenses. 
+**Codustry Laboratory** is not the owner of the dictionary database.
+We are only converter and distributer of the dictionary. We do not own any dictionary licenses.
 
 We’re using dictionary database from these developers
 -	https://sites.google.com/site/thaidictproject/
--	http://www.babylon-software.com/free-dictionaries/ 
+-	http://www.babylon-software.com/free-dictionaries/
 
 We’re using dictionary converter from this developer
 -	https://github.com/ilius/pyglossary
