@@ -1,3 +1,5 @@
+![Potchana Logo](https://www.codustry.com/potchana/images/potchana-ogp.png)
+
 # Potchana
 An open source Thai-based dictionary plug-in for Mac.
 
