@@ -43,7 +43,7 @@ We’re using dictionary converter from this developer
 We’re using installer tools from this developer
 - http://s.sudre.free.fr/Packaging.html
 
-Any questions or suggestions please contact us via [hello@codustry.com](hello@codustry.com)
+Any questions or suggestions please contact us via [hello@codustry.com](mailto:hello@codustry.com)
 
 ## Developers
 - Thunpisit Amnuaikiatloet - Developer & UI/UX Designer
