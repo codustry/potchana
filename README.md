@@ -11,7 +11,7 @@ The problem that makes us want to do Thai-based dictionary for Mac is because ma
 
 We have expands our view to not focusing on the Thai language itself but worldwide languages to make Potchana one of the best dictionary plug-ins in Apple environment.
 
-##Dictionary Resources
+## Dictionary Resources
 - Thai-Thai by Thai Royal Institution. http://rirs3.royin.go.th/
 - Thai-Japanese JTDIct (Paitoon Sae Tung). http://www.jtdic.com/
 - Thai-English by NECTEC, Thailand’s national technology agency. http://www.nectec.or.th
@@ -30,7 +30,7 @@ pyglossary INPUT_FILE OUTPUT_FILE -v3
 mydic.ifo txt
 ```
 
-##License & Credits
+## License & Credits
 **Codustry Laboratory** is not the owner of the dictionary database.
 We are only converter and distributer of the dictionary. We do not own any dictionary licenses.
 
@@ -46,7 +46,9 @@ We’re using installer tools from this developer
 
 Anymore questions regarding to license please contact us at [support@codustry.com](support@codustry.com)
 
-##Developers
-- Thunpisit Amnuaikiatloet - [thunpisit.am@codustry.com](thunpisit.am@codustry.com)
-- Nutchanon Ninyawee - [nutchanon.ni@codustry.com](nutchanon.ni@codustry.com)
-- Kompipat Kanpisan - [kompipat.ka@codustry.com](kompipat.ka@codustry.com)
+## Developers
+- Thunpisit Amnuaikiatloet - Developer & UI/UX Designer
+- Nutchanon Ninyawee - Software Engineer
+- Harit Chokthananuchit - Requiment Engineer
+
+Any questions or suggestions please contact us via [hello@codustry.com](hello@codustry.com)
