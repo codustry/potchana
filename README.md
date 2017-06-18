@@ -1,5 +1,5 @@
-![Potchana Logo](https://www.codustry.com/potchana/images/potchana-ogp.png)
-
+![Potchana Logo](https://github.com/codustry/potchana/raw/master/Design%20materials/potchana-ogp.png)
+https://www.codustry.com/potchana/images/potchana-ogp.png
 # Potchana
 An open source worldwide languages dictionary plug-in for Mac.
 
