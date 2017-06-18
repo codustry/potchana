@@ -1,3 +1,6 @@
 [submodule "pyglossary"]
 	path = pyglossary
 	url = https://github.com/ilius/pyglossary
+[submodule "lsdreader"]
+	path = lsdreader
+	url = https://github.com/sv99/lsdreader.git
